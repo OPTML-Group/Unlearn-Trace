@@ -34,6 +34,8 @@ This is the official code repository for the paper [Unlearning Isn't Invisible: 
 
 RMU unlearning
 
+NPO unlearning
+
 ## Installation
 
 We build up our code repo based on [this URL](https://github.com/locuslab/llm-idiosyncrasies).
