@@ -27,58 +27,38 @@ This is the official code repository for the paper [Unlearning Isn't Invisible: 
 
 ## Release 
 
-We will release our code base very soon~
-<!-- - [3/14] We have uploaded our first version of [Safety Mirage](https://arxiv.org/abs/2503.11832) to the Arxiv platform. -->
+- We will release our code base very soon!
+- [6/16] We have uploaded our paper to the Arxiv platform!
 
-<!-- ## Install
+## WMDP Unlearning
 
-Our safety-unlearn framework has been developed on the LLaVA-1.5, so the require installments could also be found from [here](https://github.com/haotian-liu/LLaVA).
-Also, you could use following steps:
+RMU unlearning
 
-1. Clone this repository and navigate to LLaVA folder
-```bash
-git clone https://github.com/OPTML-Group/VLM-Safety-MU
-cd VLM-Safety-MU
+## Installation
+
+We build up our code repo based on [this URL](https://github.com/locuslab/llm-idiosyncrasies).
+
+Please use separate environments for response generation and classification.
+
+1. Setup for Response Generation
+```
+conda create -n generation python=3.9 -y
+conda activate generation
+pip install vllm==0.6.3.post1 datasets==3.2.0 openai 
 ```
 
-2. Install Package
-```Shell
-conda create -n llava python=3.10 -y
-conda activate llava
-pip install --upgrade pip  # enable PEP 660 support
-pip install -e .
+2. Setup for Classification
+```
+conda create -n classification python=3.9 -y
+conda activate classification
+pip install llm2vec==0.2.3 tensorboard
 ```
 
-3. Install additional packages for training cases
-```
-pip install -e ".[train]"
-pip install flash-attn --no-build-isolation
-```
+## Response Generation
 
-## Unlearning Fine-tune
-Our base model LLava-1.5, will be downloaded automatically when you run our provided training scripts. No action is needed.
+Forget-relevant response generation
 
-For full-parameter unlearning fine-tune, you should run
-```
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash scripts/v1_5/finetune_unlearn.sh
-```
-
-For LoRA unlearning fine-tune, you should run
-```
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash scripts/v1_5/finetune_unlearn_lora.sh
-```
-
-Some unlearn options to note:
-
-- `--unlearn_type`: unlearning algorithm type, which could be 'npo' or 'rmu'.
-- `--rmu_XXX`: are the specific hyperparameters for rmu algortihm.
-- `--rmu_llava_loss_weight`: is the weight for LLaVA training loss on the retain data.
-- `--rmu_retain_alpha`: is the weight for rmu loss on the retain data.
-- `--npo_beta`: is the balancing parameter for npo algortihm.
-- `--npo_forget_alpha`: is the weight for npo loss on the forget data.
-- `--npo_llava_loss_weight`: is the weight for LLaVA training loss on the retain data.
-
-Also, the data path and the output dictionary should also be specified~ -->
+Forget-irrelevant response generation
 
 ## Contributors
 * [Yiwei Chen](https://yiwei-chenn.github.io/)
