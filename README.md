@@ -67,7 +67,7 @@ Forget-irrelevant response generation
 * [Soumyadeep Pal](https://scholar.google.ca/citations?user=c2VU-_4AAAAJ&hl=en)
 
 ## Cite This Work
-If you found our code or paper helpful, please cite our work~
+If you find out our paper or code helpful, please cite our work~
 <!-- ```
 @article{chen2025safety,
   title={Safety Mirage: How Spurious Correlations Undermine VLM Safety Fine-tuning},
