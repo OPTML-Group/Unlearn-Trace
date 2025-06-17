@@ -62,9 +62,9 @@ Forget-relevant response generation
 
 Forget-irrelevant response generation
 
-## Contributors
+<!-- ## Contributors
 * [Yiwei Chen](https://yiwei-chenn.github.io/)
-* [Soumyadeep Pal](https://scholar.google.ca/citations?user=c2VU-_4AAAAJ&hl=en)
+* [Soumyadeep Pal](https://scholar.google.ca/citations?user=c2VU-_4AAAAJ&hl=en) -->
 
 ## Cite This Work
 If you find out our paper or code helpful, please cite our work~
