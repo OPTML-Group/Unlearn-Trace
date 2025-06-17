@@ -1,6 +1,6 @@
 <div align='center'>
  
-# Unlearning Isn't Invisible: Detecting Unlearning Traces  in LLMs from Model Output
+# Unlearning Isn't Invisible: Detecting Unlearning Traces  in LLMs from Model Outputs
 
 <!-- [![preprint](https://img.shields.io/badge/arXiv-2506.04205-B31B1B)](https://arxiv.org/abs/2506.04205) -->
 
@@ -22,7 +22,7 @@
   </tr>
 </table>
 
-This is the official code repository for the paper [Unlearning Isn't Invisible: Detecting Unlearning Traces  in LLMs from Model Output](https://github.com/OPTML-Group/Unlearn-Trace).
+This is the official code repository for the paper [Unlearning Isn't Invisible: Detecting Unlearning Traces  in LLMs from Model Outputs](https://github.com/OPTML-Group/Unlearn-Trace).
 
 
 ## Release 
