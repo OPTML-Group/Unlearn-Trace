@@ -30,7 +30,11 @@ This is the official code repository for the paper [Unlearning Isn't Invisible: 
 - We will release our code base very soon!
 - [6/16] We have uploaded our paper to the Arxiv platform!
 
-## WMDP Unlearning
+## Data Preperation
+
+See [Data.md](./docs/Data.md).
+
+## LLM Unlearning
 
 RMU unlearning
 
@@ -39,10 +43,6 @@ NPO unlearning
 ## Installation
 
 See [Installation.md](./docs/Installation.md).
-
-## Data Preparation
-
-We 
 
 
 ## Response Generation
