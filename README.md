@@ -25,10 +25,9 @@
 This is the official code repository for the paper [Unlearning Isn't Invisible: Detecting Unlearning Traces  in LLMs from Model Outputs](https://www.arxiv.org/abs/2506.14003).
 
 
-## Release 
+## News 
 
-- We will release our code base very soon!
-- [6/16] We have uploaded our paper to the Arxiv platform!
+- We’re still updating this repository!
 
 ## Data Preperation
 
