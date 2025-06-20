@@ -2,7 +2,7 @@
  
 # Unlearning Isn't Invisible: Detecting Unlearning Traces  in LLMs from Model Outputs
 
-<!-- [![preprint](https://img.shields.io/badge/arXiv-2506.04205-B31B1B)](https://arxiv.org/abs/2506.04205) -->
+[![preprint](https://img.shields.io/badge/arXiv-2506.14003-B31B1B)](https://arxiv.org/abs/2506.14003)
 
 <!-- [![Venue:NeurIPS 2024](https://img.shields.io/badge/Venue-NeurIPS%202024-blue)](https://neurips.cc/Conferences/2024) -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://github.com/OPTML-Group/Unlearn-Trace?tab=MIT-1-ov-file)
@@ -22,7 +22,7 @@
   </tr>
 </table>
 
-This is the official code repository for the paper [Unlearning Isn't Invisible: Detecting Unlearning Traces  in LLMs from Model Outputs](https://github.com/OPTML-Group/Unlearn-Trace).
+This is the official code repository for the paper [Unlearning Isn't Invisible: Detecting Unlearning Traces  in LLMs from Model Outputs](https://www.arxiv.org/abs/2506.14003).
 
 
 ## Release 
@@ -32,7 +32,7 @@ This is the official code repository for the paper [Unlearning Isn't Invisible: 
 
 ## Data Preperation
 
-See [Data.md](./docs/Data.md).
+Please see [Data.md](./docs/Data.md).
 
 ## LLM Unlearning
 
@@ -42,7 +42,7 @@ NPO unlearning
 
 ## Installation
 
-See [Installation.md](./docs/Installation.md).
+Please see [Installation.md](./docs/Installation.md).
 
 
 ## Response Generation
@@ -51,9 +51,7 @@ Forget-relevant response generation
 
 Forget-irrelevant response generation
 
-<!-- ## Contributors
-* [Yiwei Chen](https://yiwei-chenn.github.io/)
-* [Soumyadeep Pal](https://scholar.google.ca/citations?user=c2VU-_4AAAAJ&hl=en) -->
+
 
 ## Cite This Work
 If you find out our paper or code helpful, please cite our work~
