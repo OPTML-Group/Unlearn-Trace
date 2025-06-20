@@ -120,7 +120,6 @@ if __name__ == "__main__":
     parser.add_argument("--seed", type=int, default=42, help="the seed that controls the randomness")
     parser.add_argument("--device", type=str, default="cuda", help="the device to use for generation")
     parser.add_argument("--num_gpus", type=int, default=1, help="the number of gpus to use for generation")
-    parser.add_argument("--api_key", type=str, default=None, help="the api key to use for generation")
     
     # Data
     parser.add_argument("--dataset_path", type=str, required=True, help="the path to the input dataset JSON file")
