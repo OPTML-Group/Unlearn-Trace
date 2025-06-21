@@ -46,19 +46,17 @@ Please see [Installation.md](./docs/Installation.md).
 
 ## Response Generation
 
-Forget-relevant response generation
-
-Forget-irrelevant response generation
+Please see [Response.md](./docs/Response.md)
 
 
 
 ## Cite This Work
 If you find out our paper or code helpful, please cite our work~
-<!-- ```
-@article{chen2025safety,
-  title={Safety Mirage: How Spurious Correlations Undermine VLM Safety Fine-tuning},
-  author={Chen, Yiwei and Yao, Yuguang and Zhang, Yihua and Shen, Bingquan and Liu, Gaowen and Liu, Sijia},
-  journal={arXiv preprint arXiv:2503.11832},
+```
+@article{chen2025unlearning,
+  title={Unlearning Isn't Invisible: Detecting Unlearning Traces in LLMs from Model Outputs},
+  author={Chen, Yiwei and Pal, Soumyadeep and Zhang, Yimeng and Qu, Qing and Liu, Sijia},
+  journal={arXiv preprint arXiv:2506.14003},
   year={2025}
 }
-``` -->
+```
