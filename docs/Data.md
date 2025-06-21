@@ -2,10 +2,10 @@
 
 We use [WMDP](https://github.com/centerforaisafety/wmdp) as our unlearning dataset.
 
-**WMDP Corpora**
+### WMDP Corpora
 
-Please follow the instruction in [WMDP Corpura](https://github.com/centerforaisafety/wmdp?tab=readme-ov-file#datasets) and put all .jsonl files in the ./data folder for the upcoming unlearning.
+Please follow the instructions in the [WMDP Corpora section](https://github.com/centerforaisafety/wmdp?tab=readme-ov-file#datasets) and place all `.jsonl` files in the `./data` folder for unlearning.
 
-**WMDP Multiple-Choice Question**
+### WMDP Multiple-Choice Questions
 
-Please follow the instruction in [WMDP Multiple-Choice Question](https://github.com/centerforaisafety/wmdp?tab=readme-ov-file#datasets) and put all *_questions.json files in the ./data/wmdp-mcqs folder for the response generation.
+Please follow the instructions in the [WMDP Multiple-Choice Questions section](https://github.com/centerforaisafety/wmdp?tab=readme-ov-file#datasets) and place all `*_questions.json` files in the `./data/wmdp-mcqs` folder for response generation.
