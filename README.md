@@ -28,6 +28,7 @@ This is the official code repository for the paper [Unlearning Isn't Invisible: 
 ## News 
 
 - We’re still updating this repository!
+- [6/10] Our paper's short version accepted for Oral at MUGen@ICML'25!
 
 ## Data Preperation
 
@@ -48,6 +49,7 @@ Please see [Installation.md](./docs/Installation.md).
 
 Please see [Response.md](./docs/Response.md)
 
+## Classifier Training and Evaluation
 
 
 ## Cite This Work
