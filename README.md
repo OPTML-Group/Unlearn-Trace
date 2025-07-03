@@ -51,6 +51,8 @@ Please see [Response.md](./docs/Response.md)
 
 ## Classifier Training 
 
+python classification.py
+
 ## Classifier Evaluation
 
 ## Cite This Work

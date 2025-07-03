@@ -51,3 +51,16 @@ python generate_responses.py \
 Feel free to adjust `--model`, `--dataset`, `--temperature`, and other flags to match your experimental setup.  
 
 ### Data Split
+
+After generating responses, you can split your datasets into training and evaluation sets using the provided splitting script:
+
+```bash
+python data_process/split.py
+```
+
+**Note**: Before running the script, customize the configuration variables in `split.py` according to your dataset:
+- `source_dir`: Path to your response files (UltraChat, WMDP, MMLU, or other datasets)
+- `train_dir`: Output directory for training split
+- `eval_dir`: Output directory for evaluation split  
+- `TOTAL_TRAIN`: Number of training samples
+- `TOTAL_EVAL`: Number of evaluation samples
