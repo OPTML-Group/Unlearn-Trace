@@ -49,8 +49,9 @@ Please see [Installation.md](./docs/Installation.md).
 
 Please see [Response.md](./docs/Response.md)
 
-## Classifier Training and Evaluation
+## Classifier Training 
 
+## Classifier Evaluation
 
 ## Cite This Work
 If you find out our paper or code helpful, please cite our work~

@@ -1,6 +1,6 @@
 ## Response Generation
 
-Customize the `model_name` in both `generate_response.py` and `generate_wmdp_response.py` to point to your unlearned model’s location. Ensure you have downloaded the WMDP multiple-choice question JSON files as described in [Data.md](./Data.md).
+Customize the `model_name` in both `generate_response.py` and `generate_wmdp_response.py` to point to your unlearned model's location. Ensure you have downloaded the WMDP multiple-choice question JSON files as described in [Data.md](./Data.md).
 
 ### Forget response generation
 
@@ -21,6 +21,19 @@ python generate_wmdp_responses.py \
 
 You can swap `--dataset_path` between `cyber_questions.json` and `bio_questions.json`, or modify `--model` as needed.  
 
+### Combining WMDP Datasets
+
+After generating responses for both bio and cyber datasets, you can combine them into a single WMDP dataset using the provided combination script:
+
+```
+python data_process/wmdp_combine.py
+```
+
+**Note**: Before running the script, customize the folder paths in `wmdp_combine.py` according to your directory structure:
+- `bio_dir`: Path to your bio response files
+- `cyber_dir`: Path to your cyber response files  
+- `output_dir`: Path where you want the combined files saved
+
 ### Forget-irrelevant response generation
 
 Generate responses for **forget-irrelevant** benchmarks (e.g., MMLU or UltraChat):
@@ -36,3 +49,5 @@ python generate_responses.py \
 - `--num_samples`: Number of samples to generate  
 
 Feel free to adjust `--model`, `--dataset`, `--temperature`, and other flags to match your experimental setup.  
+
+### Data Split
