@@ -64,3 +64,18 @@ python data_process/split.py
 - `eval_dir`: Output directory for evaluation split  
 - `TOTAL_TRAIN`: Number of training samples
 - `TOTAL_EVAL`: Number of evaluation samples
+
+### Mixed Data Generation
+
+If you want to combine forget-irrelevant and forget-relevant datasets to create mixed training and evaluation datasets, you can use the provided mixing scripts:
+
+```
+python data_process/mixed_train.py
+python data_process/mixed_eval.py
+```
+
+**Note**: Before running the scripts, customize the configuration variables according to your datasets:
+- `src1`: Path to your first dataset directory (e.g., MMLU-train/MMLU-eval)
+- `src2`: Path to your second dataset directory (e.g., wmdp-train/wmdp-eval)  
+- `out_dir`: Output directory for mixed datasets
+- `n_per`: Number of samples to take from each dataset (2900 for train, 180 for eval by default)
