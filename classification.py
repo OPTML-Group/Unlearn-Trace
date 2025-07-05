@@ -245,8 +245,8 @@ def classification(args):
         num_train_epochs = args.epochs,
         weight_decay = args.weight_decay,
         # eval_strategy = "epoch",
-        eval_strategy="steps",      # 改为按步数评估
-        eval_steps=200,             # 每 500 training steps 评估一次（根据需要调整）
+        eval_strategy="steps",    
+        eval_steps=200,        
         logging_steps=600,  
         # report_to = "tensorboard",
         report_to = [],

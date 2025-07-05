@@ -49,11 +49,9 @@ Please see [Installation.md](./docs/Installation.md).
 
 Please see [Response.md](./docs/Response.md)
 
-## Classifier Training 
+## Classifier Training and Evaluation
 
-python classification.py
-
-## Classifier Evaluation
+Please see [Classification.md](./docs/Classification.md)
 
 ## Cite This Work
 If you find out our paper or code helpful, please cite our work~
