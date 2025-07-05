@@ -36,9 +36,7 @@ Please see [Data.md](./docs/Data.md).
 
 ## LLM Unlearning
 
-RMU unlearning
-
-NPO unlearning
+Please see [Unlearn.md](./docs/Unlearn.md).
 
 ## Installation
 
